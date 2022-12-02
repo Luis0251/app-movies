@@ -1,1 +1,10 @@
-<p>movie-t works!</p>
+<div class="movie-t-wrapper">
+  <div>
+    <div class="poster-wrapper">
+      <img [src]="imageUrl" width="200px" height="300px"/>
+    </div>
+    <div class="icon-bar">
+      <fa-icon [icon]="faFav" (click)="onFavClick()"></fa-icon>
+    </div>
+  </div>
+</div>

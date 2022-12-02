@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { MovieTComponent } from './movie-t.component';
 
 describe('MovieTComponent', () => {
