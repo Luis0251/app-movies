@@ -22,4 +22,6 @@ this.moviesService.getMovies().subscribe((movies)=>this.movies = movies);
       this.watchedMovies = this.movies.filter((m) => m.isWatched);
     }
   }
+  onFavClick():void{}
+  onWatchedClick():void{}
 }
