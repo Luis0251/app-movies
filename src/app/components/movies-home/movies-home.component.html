@@ -8,6 +8,8 @@
           [id]="movie.id"
           [isWatched]="movie.isWatched"
           [isFav]="movie.isFav"
+          (favClick)="onFavClick(movie)"
+          (watchedClick)="onWatchedClick(movie)"
       ></app-movie-t>
   </div>
   <h3 *ngIf="watchedMovies.length">Watched</h3>
@@ -18,6 +20,8 @@
               [id]="movie.id"
               [isWatched]="movie.isWatched"
               [isFav]="movie.isFav"
+              (favClick)="onFavClick(movie)"
+              (watchedClick)="onWatchedClick(movie)"
           ></app-movie-t>
       </div>
 </div>
