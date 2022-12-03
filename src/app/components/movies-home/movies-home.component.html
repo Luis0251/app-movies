@@ -1,1 +1,23 @@
-<p>movies-home works!</p>
+<div class="watch-list-wrapper">
+  <h3 *ngIf="movies.length < 1">Loading...</h3>
+  <h3 *ngIf="yetToWatchMovies.length">Movies To Watch</h3>
+  <div class="to-watch">
+      <app-movie-t
+          *ngFor="let movie of yetToWatchMovies"
+          [imageUrl]="movie.image"
+          [id]="movie.id"
+          [isWatched]="movie.isWatched"
+          [isFav]="movie.isFav"
+      ></app-movie-t>
+  </div>
+  <h3 *ngIf="watchedMovies.length">Watched</h3>
+      <div class="to-watch">
+          <app-movie-t
+              *ngFor="let movie of watchedMovies"
+              [imageUrl]="movie.image"
+              [id]="movie.id"
+              [isWatched]="movie.isWatched"
+              [isFav]="movie.isFav"
+          ></app-movie-t>
+      </div>
+</div>
