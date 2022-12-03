@@ -18,8 +18,8 @@
       "id": 3,
       "title": "Black widow",
       "image": "assets/blackwidow.jpg",
-      "isWatched": true,
-      "isFav": true
+      "isWatched": false,
+      "isFav": false
     },
     {
       "id": 4,

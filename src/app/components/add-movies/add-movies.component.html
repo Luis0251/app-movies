@@ -1,1 +1,21 @@
-<p>add-movies works!</p>
+<div class="add-movie">
+  <form class="add-movie-form" (ngSubmit)="onSubmit()">
+      <div class="form-control">
+          <label for="movieTitle">Nombre</label>
+          <input type="text" name="movieTitle" [(ngModel)]="movieTitle" id="movieTitle" placeholder="Agrega el nombre" />
+      </div>
+      <div class="form-control">
+          <label for="image">Image Url</label>
+          <input type="text" name="image" [(ngModel)]="image" id="image" placeholder="Agrega  url IMG" />
+      </div>
+      <div class="form-control form-control-check">
+          <label for="watched">Vista</label>
+          <input type="checkbox" name="watched" [(ngModel)]="isWatched" id="watched" />
+      </div>
+      <div class="form-control form-control-check">
+          <label for="watched">Favorita</label>
+          <input type="checkbox" name="fav" [(ngModel)]="isFav" id="fav" />
+      </div>
+      <input type="submit" value="Add Movie" class="btn btn-block" />
+  </form>
+</div>
