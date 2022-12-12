@@ -5,7 +5,7 @@
       "title": "Avengers 4",
       "image": "assets/avengers-4.jpg",
       "isWatched": true,
-      "isFav": true
+      "isFav": false
     },
     {
       "id": 2,
@@ -32,7 +32,7 @@
       "id": 5,
       "title": "Army of Thieves",
       "image": "assets/army-of-thieves.jpg",
-      "isWatched": false,
+      "isWatched": true,
       "isFav": false
     },
     {
@@ -46,7 +46,7 @@
       "id": 7,
       "title": "Light Years",
       "image": "assets/light-years.jpg",
-      "isWatched": false,
+      "isWatched": true,
       "isFav": false
     },
     {
@@ -71,7 +71,7 @@
       "isFav": false
     },
     {
-      "isFav": true,
+      "isFav": false,
       "isWatched": true,
       "image": "https://flxt.tmsimg.com/assets/p10854590_p_v10_af.jpg",
       "title": "Terminator 4",
